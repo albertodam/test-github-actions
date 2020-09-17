@@ -21,3 +21,4 @@ jobs:
     needs: [hello_actions]
     steps:
       - name: First steo second job
+        run: echo "Finalizado todo"
