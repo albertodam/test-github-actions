@@ -1,0 +1,23 @@
+{
+  "name": "test-github-actions",
+  "version": "1.0.0",
+  "description": "Primeras pruebas con",
+  "main": "index.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/albertodam/test-github-actions.git"
+  },
+  "author": "Alberto Tejero Morales",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/albertodam/test-github-actions/issues"
+  },
+  "homepage": "https://github.com/albertodam/test-github-actions#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^8.1.3"
+  }
+}
