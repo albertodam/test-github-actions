@@ -6,6 +6,7 @@ on:
 jobs:
   hello_actions:
     name: Hello Actions
+    id: hello_actions
     runs-on: ubuntu-latest
     steps:
       - name: First step
