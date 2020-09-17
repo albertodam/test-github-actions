@@ -8,5 +8,5 @@ jobs:
     name: Hello Actions
     runs-on: ubuntu-latest
     steps:
-      name: First step
+      - name: First step
       run: echo "Hello world"
