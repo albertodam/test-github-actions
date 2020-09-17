@@ -15,6 +15,7 @@ jobs:
           npm install
           npm test
       - name: Second test after test
+        run: echo "Se me ha olvidado..."
   second_step:
     name: My second step
     runs-on: ubuntu-latest
