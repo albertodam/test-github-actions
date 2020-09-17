@@ -12,3 +12,11 @@ jobs:
         run: |
           echo "Hello world"
           npm install
+          npm test
+      - name: Second test after test
+  second_step:
+    name: My second step
+    runs-on: ubuntu-latest
+    steps:
+      -name: First steo second job
+        needs: [hello_actions]
