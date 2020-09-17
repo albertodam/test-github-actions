@@ -11,4 +11,4 @@ jobs:
       - name: First step
         run: |
           echo "Hello world"
-          ls
+          npm version
