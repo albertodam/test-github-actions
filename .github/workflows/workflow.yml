@@ -18,6 +18,6 @@ jobs:
   second_step:
     name: My second step
     runs-on: ubuntu-latest
+    needs: [hello_actions]
     steps:
-      -name: First steo second job
-        needs: [hello_actions]
+      - name: First steo second job
