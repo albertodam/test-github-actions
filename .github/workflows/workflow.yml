@@ -18,5 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     needs: [run_tests]
     steps:
-      - name: First steo second job
-        run: echo "Finalizado todo"
+      - name: Login Heroku
+        env: 
+          HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        run: heroku container:login
