@@ -4,19 +4,9 @@ on:
     branches:
       - master
 jobs:
-  run_tests:
-    name: Run test
-    runs-on: ubuntu-latest
-    steps:
-      - uses: actions/checkout@v1
-      - name: Install dependecy
-        run: npm install
-      - name: Run test
-        run: npm test
   second_step:
     name: My second step
     runs-on: ubuntu-latest
-    needs: [run_tests]
     steps:
       - uses: actions/checkout@v1
       - uses: akhileshns/heroku-deploy@v3.5.6
